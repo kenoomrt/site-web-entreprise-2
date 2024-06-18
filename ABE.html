@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABE Team - Énergies renouvelables</title>
+    <style>
+        body {
+            font-family: TT Interphases Pro Trl XBd, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EEEEEE;
+        }
+        header {
+            background-color: #17258b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #EEEEEE;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            margin-top: 0;
+        }
+        .services, .gallery, .testimonials {
+            display: flex;
+            justify-content: space-between;
+        }
+        .services div, .gallery img, .testimonials div {
+            flex: 1;
+            margin: 0 10px;
+        }
+        .services div {
+            background-color: #EEEEEE;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #17258b;
+            color: #EEEEEE;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABE Team</h1>
+        <p>Énergies renouvelables</p>
+    </header>
+
+    <section>
+        <h2>À propos de notre équipe</h2>
+        <p>La team ABE est spécialisée dans les nouvelles énergies renouvelables et les panneaux photovoltaïques autonomes, vous guide vers l'autonomie énergétique.</p>
+    </section>
+
+    <section class="services">
+        <h2>Nos services</h2>
+        <div>
+            <h3>Pompes à chaleur</h3>
+            <p>Installation et maintenance de pompes à chaleur pour un chauffage économique et écologique.</p>
+        </div>
+        <div>
+            <h3>Climatisations</h3>
+            <p>Solutions de climatisation pour un confort optimal en été comme en hiver.</p>
+        </div>
+        <div>
+            <h3>Panneaux photovoltaïques</h3>
+                <p>Installation de panneaux solaires pour une production d'énergie renouvelable et économique.</p>
+            </div>
+        </section>
+    
+        <section class="gallery">
+            <h2>Galerie</h2>
+            <img src="pompe.jpg" alt="Installation de pompe à chaleur">
+            <img src="clim.jpg" alt="Installation de climatisation">
+            <img src="panneaux.jpg" alt="Installation de panneaux photovoltaïques">
+        </section>
+    
+        <section class="testimonials">
+            <h2>Témoignages</h2>
+            <div>
+                <p>"Service impeccable et rapide. Nous sommes très satisfaits de notre nouvelle pompe à chaleur !" - Client A</p>
+            </div>
+            <div>
+                <p>"L'installation des panneaux solaires s'est faite sans problème et fonctionne à merveille." - Client B</p>
+            </div>
+            <div>
+                <p>"Très bonne équipe, professionnelle et à l'écoute. Je recommande fortement !" - Client C</p>
+            </div>
+        </section>
+    
+        <section>
+            <h2>Nous contacter</h2>
+            <form action="a.vignaux.eh@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Votre nom :</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Votre adresse mail :</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="message">Contenu du Message :</label>
+                <br>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br><br>
+                <input type="submit" value="Envoyer">
+            </form>
+            <p>Notre adresse mail : a.vignaux.eh@gmail.com</p>
+            <p>Nous appeler : 07 71 80 00 24</p>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 ABE. Tous droits réservés.</p>
+        </footer>
+    </body>
+    </html>
+    
